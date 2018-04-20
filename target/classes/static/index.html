@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h3>Calculador de cuadrados</h3>
+
+Numero: <input type="text" id="entrada"><br>
+<p>
+<button type="button" onclick="calc()">Calcular</button>
+<p>
+Respuesta:
+<input disabled id="resp">
+<script> function calc(){
+    var num = document.getElementById("entrada").value;
+    document.getElementById("resp").value = num;
+}
+</script>
+
+</body>
+</html>
